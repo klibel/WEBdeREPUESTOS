@@ -54,6 +54,7 @@ const AutoPartsCard = ({ part }) => {
       boxShadow: isHovered ? '0px 8px 8px 9px rgba(0, 0, 0, 0.15)':'0px 8px 8px 9px rgba(0, 0, 0, 0.08) ' ,
       overflow: 'hidden',
       transition: 'box-shadow 0.3s',
+      margin: '10px 0px'
     },
     content: {
       padding: '1rem',
